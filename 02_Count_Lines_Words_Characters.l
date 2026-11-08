@@ -15,7 +15,7 @@ int main()
 {
     yylex();
 
-    printf("Lines = %d\n", lines);
+    printf("\nLines = %d\n", lines);
     printf("Chars = %d\n", chars);
     printf("Words = %d\n", words);
 

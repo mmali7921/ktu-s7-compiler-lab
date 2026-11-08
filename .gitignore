@@ -1,0 +1,12 @@
+
+# Compiled C executables
+a.out
+
+# Generated Lex files
+lex.yy.c
+
+# Generated Yacc files
+y.tab.c
+y.tab.h
+
+

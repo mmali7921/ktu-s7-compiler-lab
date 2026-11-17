@@ -1,12 +1,13 @@
 
 %{
 #include <stdio.h>
+#include <stdlib.h>
 %}
 
 %token A B NL
 
 %%
-
+Start : S NL  {printf("\n Accepted"); exit(0);}
 S : A B
   | A S B
   ;
